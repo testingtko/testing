@@ -1,14 +1,12 @@
 package Automaion;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class testngtest2 {
-	WebDriver driver;
+public class demo {
+WebDriver driver;
 	
 	@Test(priority=1,description="Assert")
 	public void TitlePAgeValidation() throws InterruptedException {
@@ -73,7 +71,3 @@ public class testngtest2 {
 		
 	}
 }
-	
-
-	
-
